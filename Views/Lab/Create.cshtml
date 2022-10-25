@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Cadastrar Laboratorio";
+}
+
+<div class="text">
+    <h1 class="display-4">Cadastrar Laboratorio</h1>
+    <hr>
+       
+</div>
+<div class="container">
+    <form action="Creating" method="POST">
+        <div class="form-group">
+            <label for="id">Id</label>
+            <input type="text" name="id" id="id" class="form-control" required>
+        </div>  
+        <div class="form-group" >
+            <label for="number">Number</label>
+            <input type="text" name="number" id="number" class="form-control" required>
+        </div> 
+        <div class="form-group" >
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" class="form-control" required>
+        </div> 
+        <div class="form-group" >
+            <label for="sector">Bloco</label>
+            <input type="text" name="sector" id="sector" class="form-control" required>
+        </div> 
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+    
+
