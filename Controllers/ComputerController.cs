@@ -29,6 +29,7 @@ public class ComputerController : Controller
 
     public IActionResult Delete(int id){
         _context.Computers.Remove(_context.Computers.Find(id));
+        _context.SaveChanges();
         return View();
     }
 
@@ -43,6 +44,7 @@ public class ComputerController : Controller
         {
             Computer computer = new Computer(id,ram,processor);
             _context.Computers.Add(computer);
+            _context.SaveChanges();
             return RedirectToAction("Create");
         }
         else
@@ -52,7 +54,7 @@ public class ComputerController : Controller
        
     }
 
-    public IActionResult Update([FromForm] int id, [FromForm] string ram, [FromForm] string processor){
+    public IActionResult Update(int id){
         Computer computer = _context.Computers.Find(id);
 
         if(computer == null)
@@ -61,11 +63,17 @@ public class ComputerController : Controller
         }
         else
         {
-            computer.Ram = ram;
-            computer.Processor = processor;
-
-            return Content("Atualizado com sucesso");
+            return View(computer);
         }
 
+    }
+
+    public IActionResult Updating([FromForm] int id, [FromForm] string ram, [FromForm] string processor){
+        Computer computer = _context.Computers.Find(id);
+        
+        computer.Ram = ram;
+        computer.Processor = processor;
+        _context.SaveChanges();
+        return RedirectToAction("Index");
     }
 }

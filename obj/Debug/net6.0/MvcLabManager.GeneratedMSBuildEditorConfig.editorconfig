@@ -8,85 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcLabManager
 build_property.RootNamespace = MvcLabManager
-build_property.ProjectDir = d:\DotnetProjects\MvcLabManager-main\
+build_property.ProjectDir = /home/estudante/code/MVCEntityFramework/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\DotnetProjects\MvcLabManager-main
+build_property.MSBuildProjectDirectory = /home/estudante/code/MVCEntityFramework
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Computer/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcQ3JlYXRlLmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Computer/Creating.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcQ3JlYXRpbmcuY3NodG1s
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Creating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvQ3JlYXRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Computer/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcRGVsZXRlLmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Computer/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcSW5kZXguY3NodG1s
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Computer/Show.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcU2hvdy5jc2h0bWw=
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Computer/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHV0ZXJcVXBkYXRlLmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/estudante/code/MVCEntityFramework/Views/Computer/Updating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHV0ZXIvVXBkYXRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Lab/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXENyZWF0ZS5jc2h0bWw=
+[/home/estudante/code/MVCEntityFramework/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Lab/Creating.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXENyZWF0aW5nLmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Lab/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXERlbGV0ZS5jc2h0bWw=
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Creating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0NyZWF0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Lab/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXEluZGV4LmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Lab/Show.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXFNob3cuY3NodG1s
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Lab/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFiXFVwZGF0ZS5jc2h0bWw=
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL1Nob3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL1VwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/estudante/code/MVCEntityFramework/Views/Lab/Updating.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiL1VwZGF0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/estudante/code/MVCEntityFramework/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/estudante/code/MVCEntityFramework/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DotnetProjects/MvcLabManager-main/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-8yxww06vzk
+[/home/estudante/code/MVCEntityFramework/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudante/code/MVCEntityFramework/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudante/code/MVCEntityFramework/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0ga6t889kj

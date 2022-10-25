@@ -29,7 +29,8 @@ public class LabController : Controller
 
     public IActionResult Delete(int id){
         _context.Labs.Remove(_context.Labs.Find(id));
-        return View();
+        _context.SaveChanges();
+        return View();  
     }
 
     public IActionResult Create(){
@@ -43,6 +44,7 @@ public class LabController : Controller
         {
             Lab lab = new Lab(id, number, name, sector);
             _context.Labs.Add(lab);
+            _context.SaveChanges();
             return RedirectToAction("Create");
         }
         else
@@ -64,7 +66,8 @@ public class LabController : Controller
             lab.Number = number;
             lab.Name = name;
             lab.Sector = sector;
-
+            _context.Labs.Update(lab);
+            _context.SaveChanges();
             return Content("Atualizado com sucesso");
         }
 

@@ -16,7 +16,7 @@ else
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Numbero</th>
+                <th>Numero</th>
                 <th>Nome</th>
                 <th>Bloco</th>
                 <th>Ações</th>
@@ -31,8 +31,9 @@ else
                     <td>@lab.Name</td>
                     <td>@lab.Sector</td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Computer/Show/@lab.Id">Ver</a>
-                        <a class="btn btn-primary btn-sm" href="/Computer/Delete/@lab.Id">Delete</a>
+                        <a class="btn btn-primary btn-sm" href="/Lab/Show/@lab.Id">Ver</a>
+                        <a class="btn btn-primary btn-sm" href="/Lab/Update/@lab.Id">Atualizar</a>
+                        <a class="btn btn-danger btn-sm" href="/Lab/Delete/@lab.Id">Delete</a>
                     </td>
                 </tr>
             }
