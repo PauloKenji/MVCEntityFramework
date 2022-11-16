@@ -29,9 +29,18 @@ else
                     <td>@computer.Ram</td>
                     <td>@computer.Processor</td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Computer/Show/@computer.Id">Ver</a>
-                        <a class="btn btn-primary btn-sm" href="/Computer/Update/@computer.Id">Atulizar</a>
-                        <a class="btn btn-danger btn-sm" href="/Computer/Delete/@computer.Id">Delete</a>
+                        <a class="btn btn-primary btn-sm"
+                            asp-controller="Computer" 
+                            asp-action="Show" 
+                            asp-route-id="@computer.Id">Ver</a>
+                        <a class="btn btn-primary btn-sm"
+                            asp-controller="Computer" 
+                            asp-action="Update" 
+                            asp-route-id="@computer.Id">Atulizar</a>
+                       <a class="btn btn-primary btn-sm"
+                            asp-controller="Computer" 
+                            asp-action="Delete" 
+                            asp-route-id="@computer.Id">Delete</a>
                     </td>
                 </tr>
             }

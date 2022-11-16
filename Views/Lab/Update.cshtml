@@ -10,22 +10,22 @@
        
 </div>
 <div class="container">
-   <form action="Updating" method="POST">
+   <form asp-controller="Lab" asp-action="Update" asp-route-id="@Model.Id" method="POST">
         <div class="form-group">
-            <label for="id">Id</label>
-            <input type="text" name="id" id="id" class="form-control" value="@Model.Id" readonly>
+            <label asp-for="Id">Id</label>
+            <input type="text" asp-for="Id" class="form-control" value="@Model.Id" readonly>
         </div>  
         <div class="form-group" >
-            <label for="number">Number</label>
-            <input type="text" name="number" id="number" class="form-control" value="@Model.Number" required>
+            <label asp-for="Number">Número</label>
+            <input type="text" asp-for="Number" class="form-control" value="@Model.Number" required>
         </div> 
         <div class="form-group" >
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" class="form-control" value="@Model.Name" required>
+            <label asp-for="Name">Nome</label>
+            <input type="text" asp-for="Name" class="form-control" value="@Model.Name" required>
         </div> 
         <div class="form-group" >
-            <label for="sector">Bloco</label>
-            <input type="text" name="sector" id="sector" class="form-control" value="@Model.Sector" required>
+            <label asp-for="Sector">Bloco</label>
+            <input type="text" asp-for="Sector" class="form-control" value="@Model.Sector" required>
         </div> 
         
         <button type="submit" class="btn btn-primary">Enviar</button>

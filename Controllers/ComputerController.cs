@@ -33,13 +33,16 @@ public class ComputerController : Controller
         return View();
     }
 
-    public IActionResult Create(){
+    public ViewResult Create(){
                 
         return View();
     }
 
-    public IActionResult Creating([FromForm] int id, [FromForm] string ram, [FromForm] string processor){
-        
+    [HttpPost]
+    public IActionResult Create([FromForm] int id, [FromForm] string ram, [FromForm] string processor){
+        if(!ModelState.IsValid){
+            return View("Create");
+        }
         if(_context.Computers.Find(id) == null)
         {
             Computer computer = new Computer(id,ram,processor);
@@ -68,7 +71,12 @@ public class ComputerController : Controller
 
     }
 
-    public IActionResult Updating([FromForm] int id, [FromForm] string ram, [FromForm] string processor){
+    [HttpPost]
+    public IActionResult Update([FromForm] int id, [FromForm] string ram, [FromForm] string processor){
+        
+        if(!ModelState.IsValid){
+            return View();
+        }
         Computer computer = _context.Computers.Find(id);
         
         computer.Ram = ram;

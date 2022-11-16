@@ -38,14 +38,18 @@ public class LabController : Controller
         return View();
     }
 
-    public IActionResult Creating([FromForm] int id, [FromForm] string number, [FromForm] string name, [FromForm] string sector){
+    [HttpPost]
+    public IActionResult Create([FromForm] int id, [FromForm] string number, [FromForm] string name, [FromForm] string sector){
         
+        if(!ModelState.IsValid){
+            return View();
+        }
         if(_context.Labs.Find(id) == null)
         {
             Lab lab = new Lab(id, number, name, sector);
             _context.Labs.Add(lab);
             _context.SaveChanges();
-            return RedirectToAction("Create");
+            return RedirectToAction("index");
         }
         else
         {
@@ -54,7 +58,8 @@ public class LabController : Controller
        
     }
 
-    public IActionResult Update([FromForm] int id, [FromForm] string number, [FromForm] string name, [FromForm] string sector){
+    
+    public IActionResult Update(int id){
         Lab lab = _context.Labs.Find(id);
 
         if(lab == null)
@@ -63,13 +68,24 @@ public class LabController : Controller
         }
         else
         {
-            lab.Number = number;
-            lab.Name = name;
-            lab.Sector = sector;
-            _context.Labs.Update(lab);
-            _context.SaveChanges();
-            return Content("Atualizado com sucesso");
+            return View(lab);
         }
+
+    }
+
+    [HttpPost]
+    public IActionResult Update([FromForm] int id, [FromForm] string number, [FromForm] string name, [FromForm] string sector){
+        if(!ModelState.IsValid){
+            return View();
+        }
+        
+        Lab lab = _context.Labs.Find(id);
+        
+        lab.Number = number;
+        lab.Name = name;
+        lab.Sector = sector;
+        _context.SaveChanges();
+        return RedirectToAction("Index");
 
     }
 }

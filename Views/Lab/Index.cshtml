@@ -31,9 +31,18 @@ else
                     <td>@lab.Name</td>
                     <td>@lab.Sector</td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Lab/Show/@lab.Id">Ver</a>
-                        <a class="btn btn-primary btn-sm" href="/Lab/Update/@lab.Id">Atualizar</a>
-                        <a class="btn btn-danger btn-sm" href="/Lab/Delete/@lab.Id">Delete</a>
+                         <a class="btn btn-primary btn-sm"
+                            asp-controller="Lab" 
+                            asp-action="Show" 
+                            asp-route-id="@lab.Id">Ver</a>
+                        <a class="btn btn-primary btn-sm"
+                            asp-controller="Lab" 
+                            asp-action="Update" 
+                            asp-route-id="@lab.Id">Atulizar</a>
+                       <a class="btn btn-primary btn-sm"
+                            asp-controller="Lab" 
+                            asp-action="Delete" 
+                            asp-route-id="@lab.Id">Delete</a>
                     </td>
                 </tr>
             }

@@ -10,18 +10,20 @@
        
 </div>
 <div class="container">
-    <form action="../Updating" method="POST">
+    <form asp-controller="Computer" asp-action="Update" asp-route-id="@Model.Id" method="POST">
         <div class="form-group">
-            <label for="id">Id</label>
-            <input type="text" name="id" id="id" class="form-control" value="@Model.Id" readonly>
+            <label asp-for="Id">Id</label>
+            <input type="text" asp-for="Id" class="form-control" value="@Model.Id" readonly>
         </div>  
         <div class="form-group" >
-            <label for="ram">Ram</label>
-            <input type="text" name="ram" id="ram" class="form-control" value="@Model.Ram" required>   
+            <label asp-for="Ram">Ram</label>
+            <input type="text" asp-for="Ram" class="form-control" value="@Model.Ram" required>   
+            <span asp-validation-for="Ram"></span>
         </div> 
         <div class="form-group" >
-            <label for="processor">Processador</label>
-            <input type="text" name="processor" id="processor" class="form-control" value="@Model.Processor" required>
+            <label asp-for="Processor">Processador</label>
+            <input type="text" asp-for="Processor" class="form-control" value="@Model.Processor" required>
+            <span asp-validation-for="Processor"></span>
         </div> 
         
         <button type="submit" class="btn btn-primary">Enviar</button>

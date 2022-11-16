@@ -1,3 +1,5 @@
+@model Computer
+
 @{
     ViewData["Title"] = "Cadastrar Computador";
 }
@@ -8,18 +10,19 @@
        
 </div>
 <div class="container">
-    <form action="Creating" method="POST">
+    <form asp-controller="Computer" asp-action="Create" method="POST">
         <div class="form-group">
-            <label for="id">Id</label>
-            <input type="text" name="id" id="id" class="form-control" required>
+            <label asp-for="Id">Id</label>
+            <input type="text" asp-for="Id" class="form-control" required>
         </div>  
         <div class="form-group" >
-            <label for="ram">Ram</label>
-            <input type="text" name="ram" id="ram" class="form-control" required>
+            <label asp-for="Ram">Ram</label>
+            <input type="text" asp-for="Ram" class="form-control" required>
+            <span asp-validation-for="Ram"></span>
         </div> 
         <div class="form-group" >
-            <label for="processor">Processador</label>
-            <input type="text" name="processor" id="processor" class="form-control" required>
+            <label asp-for="Processor">Processador</label>
+            <input type="text" asp-for="Processor" class="form-control" required>
         </div> 
         
         <button type="submit" class="btn btn-primary">Enviar</button>
